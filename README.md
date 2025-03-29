@@ -4,13 +4,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+Install the below package:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+npm install tailwindcss @tailwindcss/vite
+```
+
+Then, add the below line to the global.css:
+```bash
+@import "tailwindcss";
+```
+
+```bash
 bun dev
 ```
 
