@@ -7,6 +7,7 @@ First, run the development server:
 Install the below package:
 ```bash
 npm install tailwindcss @tailwindcss/vite
+npx tailwindcss-cli@latest init
 ```
 
 Then, add the below line to the global.css:
